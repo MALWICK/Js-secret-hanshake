@@ -24,12 +24,12 @@ Knowledge about:
 ## Clone project
 
 - To get a local copy up and running follow these simple example steps.
-- Clone this repository with `` using your terminal.
+- Clone this repository with `https://github.com/MALWICK/Js-secret-hanshake/pulls` using your terminal.
 - Change to the project directory by entering: cd jsSecretHandshake the terminal.
 
 ## steps
 
-- $ git clone ``
+- $ git clone `https://github.com/MALWICK/Js-secret-hanshake/pulls`
 - $ `cd jsSecretHandshake`
 - $ `git checkout feature/Secret-Handshake`
 
@@ -41,7 +41,7 @@ Knowledge about:
 
 👤 **NoubissiViany**
 
-- GitHub: [@MALWICK]()
+- GitHub: [@MALWICK](https://github.com/MALWICK/Js-secret-hanshake/pulls)
 
 ## 📝 License
 
