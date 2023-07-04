@@ -2,7 +2,7 @@ const input = document.querySelector('.inpt')
 const btn = document.querySelector('.btn')
 const output = document.querySelector('.result')
 
-const arr1 = [1000, 100, 10, 1]
+const arr1 = [2000, 1000, 100, 10, 1]
 const arr2 = [
   'jump&#129462',
   'close your eyes &#128522',
@@ -15,10 +15,12 @@ btn.addEventListener('click', function () {
   handshake()
 })
 
+const arr3 = []
+
 function handshake () {
   const num = parseInt(input.value).toString(2)
   let rslt = num
-  const arr3 = []
+
   console.log(num)
 
   if (num > 0) {
@@ -43,7 +45,7 @@ function handshake () {
       }
     }
     output.style.visibility = 'visible'
-    output.innerHTML = arr3
+    output.innerHTML = arr3.join('\n')
   } else {
     window.alert('Please enter a number greater than 0')
     input.value = ''
